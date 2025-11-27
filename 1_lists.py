@@ -13,3 +13,9 @@
 # 
 # Write your code here:
 colors = ["red", "green", "blue", "yellow", "purple"]
+def color_info(colors):
+    print(colors[0])
+    print(colors[-1])
+    print(colors[2:4])
+
+color_info(colors)
