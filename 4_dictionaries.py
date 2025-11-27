@@ -15,8 +15,16 @@
 # 
 # Write your code here:
 
+country=input("country name:")
 capitals = {
     "France": "Paris",
     "Germany": "Berlin",
     "Spain": "Madrid"
 }
+def get_capital(country,capitals):
+    if country in capitals:
+        return capitals[country]
+    else:
+        return("Unknown")
+    
+print(get_capital(country,capitals))

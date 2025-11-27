@@ -12,3 +12,8 @@
 
 # Write your code here:
 person = ("Alice", 21)
+def function (person):
+    (name,age)= person
+    print(name)
+    print(age)
+function(person)
